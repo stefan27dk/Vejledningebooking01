@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Vejledningebooking01.Domain\Vejledningebooking01.Domain.csproj" />
+    <ProjectReference Include="..\Vejledningebooking01.Infrastructure\Vejledningebooking01.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
